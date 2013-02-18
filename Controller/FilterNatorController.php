@@ -29,7 +29,7 @@ class FilterNatorController
      *
      * @return mixed
      */
-    public function indexAction($filterBuilder, &$form, $session_key, $limit = 5, $page_number = 1)
+    public function filterNate($filterBuilder, &$form, $session_key, $limit = 5, $page_number = 1)
     {
         $em = $this->container->get('doctrine')->getManager();
         $paginator = $this->container->get('knp_paginator');
