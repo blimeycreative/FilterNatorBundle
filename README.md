@@ -59,8 +59,8 @@ $pagination = $this->container->get("savvy.filter_nator")->filterNate(
     $filterBuilder,
     $form,
     'foo',
-    5/*return 5 entities*/,
-    1/*starting from page 1*/
+    5, /*return 5 entities*/
+    1  /*starting from page 1*/
 );
 ```
 
