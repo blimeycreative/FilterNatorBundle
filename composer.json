@@ -1,0 +1,24 @@
+{
+    "name": "savvy/filternator-bundle",
+    "type": "symfony-bundle",
+    "description": "Bundle to use knp paginator bundle and lexik form filter bundle",
+    "keywords": ["paginate", "filter"],
+    "homepage": "http://github.com/oxygenthinking/FilterNatorBundle.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luke Rotherfield",
+            "email": "luke@savvycreativeuk.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "knplabs/knp-paginator-bundle": "dev-master",
+        "lexik/form-filter-bundle" : "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Savvy\\FilterNatorBundle": "" }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "Savvy/FilterNatorBundle"
+}

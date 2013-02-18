@@ -1,0 +1,4 @@
+services:
+    savvy.filter_nator:
+        class: Savvy\FilterNatorBundle\Controller\FilterNatorController
+        arguments: [@service_container]
