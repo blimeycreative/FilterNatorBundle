@@ -11,8 +11,10 @@ paginated (Nator).
 Add the Filter-Nator bundle as a dependency in your composer.json:
 
 ```json
-require: {
-    "savvy/filternator-bundle": "dev-master"
+{
+    require: {
+        "savvy/filternator-bundle": "dev-master"
+    }
 }
 ```
 
