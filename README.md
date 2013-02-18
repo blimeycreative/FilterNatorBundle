@@ -11,7 +11,7 @@ paginated (Nator).
 Add the Filter-Nator bundle as a dependency in your composer.json:
 
 ```json
-require{
+require: {
     "savvy/filternator-bundle": "dev-master"
 }
 ```
@@ -55,7 +55,13 @@ of entites to return and the page number to start on:
 
 ```php
 //Any class with access to the ContainerInterface object
-$pagination = $this->container->get("savvy.filter_nator")->filterNate($filterBuilder, $form, 'foo', 5/*return 5 entities*/, 1/*starting from page 1*/);
+$pagination = $this->container->get("savvy.filter_nator")->filterNate(
+    $filterBuilder,
+    $form,
+    'foo',
+    5/*return 5 entities*/,
+    1/*starting from page 1*/
+);
 ```
 
 [1]: https://github.com/KnpLabs/KnpPaginatorBundle
